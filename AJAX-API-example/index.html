@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>패스트푸드점 찾기</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header Section -->
+      <div class="header">
+        <div class="title"><a href="index.html">패스트푸드점 찾기</a></div>
+        <div class="search">
+          <input type="text" id="txt-search" />
+          <button class="btn-search">검색</button>
+        </div>
+      </div>
+
+      <!-- Body Section -->
+      <div class="body">
+        <div class="total"></div>
+        <div class="list"></div>
+      </div>
+
+      <!-- Paging Section -->
+      <div class="paging"></div>
+    </div>
+
+    <!-- List Template -->
+    <div id="item-template" class="item">
+      <div class="item-no"></div>
+      <div class="item-detail">
+        <div class="item-name"></div>
+        <div class="item-addr"></div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
